@@ -3,7 +3,7 @@ package ast
 import (
 	"testing"
 
-	"github.com/inosjarv/interpreter-in-go/token"
+	"github.com/inosjarv/monkey-lang/token"
 )
 
 func TestString(t *testing.T) {

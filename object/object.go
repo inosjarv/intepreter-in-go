@@ -6,7 +6,7 @@ import (
 	"hash/fnv"
 	"strings"
 
-	"github.com/inosjarv/interpreter-in-go/ast"
+	"github.com/inosjarv/monkey-lang/ast"
 )
 
 type ObjectType string

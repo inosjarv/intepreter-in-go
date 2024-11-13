@@ -3,8 +3,8 @@ package evaluator
 import (
 	"fmt"
 
-	"github.com/inosjarv/interpreter-in-go/ast"
-	"github.com/inosjarv/interpreter-in-go/object"
+	"github.com/inosjarv/monkey-lang/ast"
+	"github.com/inosjarv/monkey-lang/object"
 )
 
 var (

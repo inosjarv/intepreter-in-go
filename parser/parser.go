@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/inosjarv/interpreter-in-go/ast"
-	"github.com/inosjarv/interpreter-in-go/lexer"
-	"github.com/inosjarv/interpreter-in-go/token"
+	"github.com/inosjarv/monkey-lang/ast"
+	"github.com/inosjarv/monkey-lang/lexer"
+	"github.com/inosjarv/monkey-lang/token"
 )
 
 type (

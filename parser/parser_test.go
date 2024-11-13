@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/inosjarv/interpreter-in-go/ast"
-	"github.com/inosjarv/interpreter-in-go/lexer"
+	"github.com/inosjarv/monkey-lang/ast"
+	"github.com/inosjarv/monkey-lang/lexer"
 )
 
 func TestLetStatements(t *testing.T) {

@@ -3,7 +3,7 @@ package evaluator
 import (
 	"fmt"
 
-	"github.com/inosjarv/interpreter-in-go/object"
+	"github.com/inosjarv/monkey-lang/object"
 )
 
 var builtins = map[string]*object.Builtin{
