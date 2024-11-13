@@ -1,6 +1,10 @@
 package evaluator
 
-import "github.com/inosjarv/interpreter-in-go/object"
+import (
+	"fmt"
+
+	"github.com/inosjarv/interpreter-in-go/object"
+)
 
 var builtins = map[string]*object.Builtin{
 	"len": {
@@ -90,6 +94,14 @@ var builtins = map[string]*object.Builtin{
 			newElements := make([]object.Object, length+1, length+1)
 			copy(newElements, arr.Elements)
 			return &object.Array{Elements: newElements}
+		},
+	},
+	"puts": {
+		Fn: func(args ...object.Object) object.Object {
+			for _, arg := range args {
+				fmt.Println(arg.Inspect())
+			}
+			return NULL
 		},
 	},
 }
